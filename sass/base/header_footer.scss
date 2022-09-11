@@ -1,14 +1,14 @@
 #header{
     text-align: center;
-    border: solid 5px #d5b890;
+    border: solid 5px $secondary;
     border-radius: 20px;
     margin-bottom: 10px;
     @include mobile{
-        border: solid 5px #783818;
+        border: solid 5px $primary;
     }
 
     @include tablet{
-        border: solid 5px #08cccc;
+        border: solid 5px $tertiary;
     }
 }
 
