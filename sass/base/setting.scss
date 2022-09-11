@@ -1,0 +1,21 @@
+//@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Parisienne&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+$font-1: "Cookie", cursive;
+$font-2: "Great Vibes", cursive;
+$font-3: "Parisienne", cursive;
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: 0;
+}

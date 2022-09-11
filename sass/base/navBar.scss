@@ -1,0 +1,110 @@
+.menuNavBar {
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  @include mobile {
+    height: 26.5rem;
+  }
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  @include mobile {
+    width: 95%;
+    justify-content: center;
+  }
+}
+
+#menu {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  @include mobile {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.menuBubble {
+  border: dotted 3px #783818;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  @include mobile{
+    border: dotted 2px #d5b890;
+  }
+  
+  @include tablet{
+    border: dotted 2px #d5b890;
+  }
+
+}
+
+.menuBubble:hover,
+.menuMiniBubble:hover {
+  border: dotted 3px #08cccc;
+  cursor: pointer;
+  transform: scale(1.1);
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+  }
+}
+
+.menuMiniBubble {
+  border: dotted 3px #d5b890;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+
+  @include mobile{
+    border: dotted 2px #783818;
+  }
+  
+  @include tablet{
+    border: dotted 2px #783818;
+  }
+}
+
+.menuLiens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.menuDetails {
+    text-align: center;
+  margin: 0;
+  font-family: cursive;
+  color: #783818;
+}
+
+.menuParts {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+
+  @include mobile {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 0;
+  }
+}

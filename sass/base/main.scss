@@ -1,0 +1,852 @@
+.introductionSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#introduction {
+  border: dotted 3px #08cccc;
+  border-radius: 20px 0 20px 0;
+  width: 70%;
+  margin-left: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 15px;
+
+  @include mobile{
+    width: 95%;
+    border: dotted 2px #783818;
+  }
+
+  @include tablet{
+    border: dotted 2px #d5b890;
+  }
+}
+
+#introTitle {
+  margin: 0;
+  font-family: Cookie;
+  font-size: 30px;
+
+  @include mobile{
+    font-size: 35px;
+  }
+}
+
+#talk {
+  margin: 0;
+  font-family: cursive;
+}
+
+.mySkillsSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  @include mobile {
+    flex-direction: column;
+  }
+}
+
+#hardSkills {
+  border: dotted 3px #783818;
+  border-radius: 20px 0 20px 0;
+  width: 60%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  @include mobile {
+    border: dotted 2px #d5b890;
+    margin-bottom: 20px;
+    width: 95%;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+  }
+}
+
+#mySkills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+
+  @include mobile{
+    flex-direction: column;
+  }
+}
+
+#hardSkillsTitle,
+#softSkillsTitle {
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  font-family: Cookie;
+  @include mobile{
+    font-size: 35px;
+  }
+}
+
+.titlesh4 {
+    margin-bottom: 9px;
+    font-family: Great Vibes;
+    font-size: 23px;
+    margin-top: 0px;
+
+    @include mobile{
+      font-size: 35px;
+    }
+}
+
+#softSkills {
+  border: dotted 3px #d5b890;
+  border-radius: 20px 0 20px 0;
+  width: 25%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+
+  @include tablet{
+    border: dotted 2px #783818;
+  }
+}
+
+.listMyHardSkills {
+    font-size: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+.listMySoftSkills{
+    font-size: 15px;
+  margin: 10px;
+  list-style: none;
+  padding: 0;
+  font-family: cursive;
+
+  @include mobile {
+    margin: 5px;
+    font-size: 20px;
+  }
+}
+
+#myProjectsSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 100%;
+
+    @include mobile{
+      margin-top: 0;
+    }
+}
+
+#myProjects{
+    border: dotted 3px #d5b890;
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+    width: 95%;
+
+    @include mobile{
+      border: dotted 2px #783818;
+    }
+
+    @include tablet{
+      border: dotted 2px #08cccc;
+    }
+}
+
+#projectBigTitle, 
+#careerBigTitle, 
+#interestsBigTitle, 
+#languagesBigTitle{
+  font-family: Cookie;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+
+  @include mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+  }
+}
+
+.explications{
+  font-family: cursive;
+  margin: 0;
+  font-size: 14px;
+
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+//Projet 1
+.projectsCards1{
+  background-color: #eee1d063;
+  border: dotted 3px #783818;
+  border-radius: 20px 0 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 100%;
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+    flex-direction: column;
+  }
+
+  @include tablet{
+    border: dotted 2px #d5b890;
+  }
+}
+
+.infosProjectCard1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projectTitle1{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  font-family: Great Vibes;
+
+  @include mobile{
+    font-size: 35px;
+  }
+}
+
+.projectInfos1{
+  font-family: cursive;
+  font-size: 14px;
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+.imgProjectCard1{
+  border: dotted 3px #08cccc;
+  border-radius: 20px 0 20px 0;
+  padding: 1px;
+  width: 100%;
+  @include mobile{
+    border: dotted 2px #08cccc;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+  }
+}
+
+.imgProject1{
+  width: 100%;
+  border-radius: 20px 0 20px 0;
+}
+
+.imgProject1:hover{
+  transform: scale(1.4) translate(-20%, 0%);
+  border: dotted 3px #d5b890;
+
+  @include mobile{
+    transform: scale(1.2) translate(0%, 0%);
+    border: dotted 2px #783818;
+  }
+
+  @include tablet{
+    transform: scale(1.5) translate(-34%, 7%);
+    border: dotted 2px #d5b890;
+    width: 110%;  }
+}
+
+.infosImg{
+  text-align: center;
+  font-family: cursive;
+
+  @include mobile{
+    font-size: 18px;
+  }
+}
+
+// Projet 2
+
+.projectsCards2{
+  background-color: #eee1d063;
+  border: dotted 3px #d5b890;
+  border-radius: 20px 0 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 100%;
+  @include mobile{
+    border: dotted 2px #08cccc;
+    flex-direction: column;
+  }
+
+  @include tablet{
+    border: dotted 2px #783818;
+  }
+}
+
+.infosProjectCard2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  width: 100%;
+}
+
+.projectTitle2{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  font-family: Great Vibes;
+
+  @include mobile{
+    font-size: 35px;
+  }
+}
+
+.projectInfos2{
+  font-family: cursive;
+  font-size: 14px;
+
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+.imgProjectCard2{
+  border: dotted 3px #08cccc;
+  border-radius: 20px 0 20px 0;
+  padding: 1px;
+  width: 100%;
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+  }
+}
+
+.imgProject2{
+  width: 100%;
+  border-radius: 20px 0 20px 0;
+}
+
+.imgProject2:hover{
+  transform: scale(1.4) translate(-20%, 0%);
+  border: dotted 3px #783818;
+
+  @include mobile{
+    transform: scale(1.2) translate(0%, 0%);
+    border: dotted 2px #d5b890;
+  }
+
+  @include tablet{
+    transform: scale(1.5) translate(-34%, 7%);
+    border: dotted 2px #783818;
+    width: 110%;  }
+}
+
+//Projet 3
+
+.projectsCards3{
+  background-color: #eee1d063;
+  border: dotted 3px #783818;
+  border-radius: 20px 0 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+      width: 100%;
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+    flex-direction: column;
+  }
+
+  @include tablet{
+    border: dotted 2px #d5b890;
+  }
+}
+
+.infosProjectCard3{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projectTitle3{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  font-family: Great Vibes;
+
+  @include mobile{
+    font-size: 35px;
+  }
+}
+
+.projectInfos3 {
+  font-family: cursive;
+  font-size: 14px;
+
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+#laChouetteAgenceBefore{
+  color: #783818;
+  font-family: cursive;
+  font-size: 14px;
+
+  @include mobile{
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+}
+
+.imgProjectCard3{
+  border: dotted 3px #08cccc;
+  border-radius: 20px 0 20px 0;
+  padding: 1px;
+  width: 100%;
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+  }
+}
+
+.imgProject3{
+  width: 100%;
+  border-radius: 20px 0 20px 0;
+}
+
+.imgProject3:hover{
+  transform: scale(1.4) translate(-20%, 0%);
+  border: dotted 3px #d5b890;
+
+  @include mobile{
+    transform: scale(1.2) translate(0%, 0%);
+    border: dotted 2px #783818;
+  }
+
+  @include tablet{
+    border: dotted 2px #d5b890;
+    transform: scale(1.5) translate(-34%, 7%);
+    width: 110%;
+  }
+}
+
+
+//Projet 4
+
+.projectsCards4{
+  background-color: #eee1d063;
+  border: dotted 3px #d5b890;
+  border-radius: 20px 0 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+      width: 100%;
+  @include mobile{
+    border: dotted 2px #08cccc;
+    flex-direction: column;
+  }
+
+  @include tablet{
+    border: dotted 2px #d5b890;
+  }
+}
+
+.infosProjectCard4{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projectTitle4{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  font-family: Great Vibes;
+
+  @include mobile{
+    font-size: 35px;
+  }
+}
+
+.projectInfos4{
+  font-family: cursive;
+  font-size: 14px;
+
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+.imgProjectCard4{
+  border: dotted 3px #08cccc;
+  border-radius: 20px 0 20px 0;
+  padding: 1px;
+  width: 100%;
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+  }
+}
+
+.imgProject4{
+  width: 100%;
+  border-radius: 20px 0 20px 0;
+}
+
+.imgProject4:hover{
+  transform: scale(1.4) translate(-20%, 0%);
+  border: dotted 3px #783818;
+
+  @include mobile{
+    transform: scale(1.2) translate(0%, 0%);
+    border: dotted 2px #d5b890;
+  }
+
+  @include tablet{
+    transform: scale(1.5) translate(-34%, 7%);
+    border: dotted 2px #783818;
+    width: 110%;  }
+}
+
+//Projet 5
+
+.projectsCards5{
+  background-color: #eee1d063;
+  border: dotted 3px #783818;
+  border-radius: 20px 0 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+      width: 100%;
+  @include mobile{
+    border: dotted 2px #08cccc;
+    flex-direction: column;
+  }
+
+  @include tablet{
+    border: dotted 2px #d5b890;
+  }
+}
+
+.infosProjectCard5{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projectTitle5{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  font-family: Great Vibes;
+
+  @include mobile{
+    font-size: 35px;
+  }
+}
+
+.projectInfos5{
+  font-family: cursive;
+  font-size: 14px;
+
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+.imgProjectCard5{
+  border: dotted 3px #08cccc;
+  border-radius: 20px 0 20px 0;
+  padding: 1px;
+  width: 100%;
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+  }
+}
+
+.imgProject5{
+  width: 100%;
+  border-radius: 20px 0 20px 0;
+}
+
+.imgProject5:hover{
+  transform: scale(1.4) translate(-20%, 0%);
+  border: dotted 3px #d5b890;
+
+  @include mobile{
+    transform: scale(1.2) translate(0%, 0%);
+    border: dotted 2px #783818;
+  }
+
+  @include tablet{
+    border: dotted 2px #d5b890;
+    transform: scale(1.5) translate(-34%, 7%);
+    width: 110%;
+  }
+}
+
+
+//Projet 6
+
+.projectsCards6{
+  background-color: #eee1d063;
+  border: dotted 3px #d5b890;
+  border-radius: 20px 0 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+      width: 100%;
+  @include mobile{
+    border: dotted 2px #08cccc;
+    flex-direction: column;
+  }
+
+  @include tablet{
+    border: dotted 2px #d5b890;
+  }
+}
+
+.infosProjectCard6{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.projectTitle6{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  font-family: Great Vibes;
+
+  @include mobile{
+    font-size: 35px;
+  }
+}
+
+.projectInfos6{
+  font-family: cursive;
+  font-size: 14px;
+
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+.imgProjectCard6{
+  border: dotted 3px #08cccc;
+  border-radius: 20px 0 20px 0;
+  padding: 1px;
+  width: 100%;
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+    width: 100%;
+  }
+}
+
+.imgProject6{
+  width: 100%;
+  border-radius: 20px 0 20px 0;
+}
+
+.imgProject6:hover{
+  transform: scale(1.4) translate(-20%, 0%);
+  border: dotted 3px #783818;
+
+  @include mobile{
+    transform: scale(1.2) translate(0%, 0%);
+    border: dotted 2px #d5b890;
+  }
+
+  @include tablet{
+    transform: scale(1.5) translate(-34%, 7%);
+    border: dotted 2px #783818;
+    width: 110%;
+  }
+}
+
+// Mon parcours
+.bigSection{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+
+  @include mobile{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.smallSection{
+  display: flex;
+  flex-direction: column;
+
+  @include mobile{
+    align-items: center;
+  }
+}
+
+#myCareerSection{
+  margin-top: 20px;
+  // margin-left: 30px;
+  border: dotted 3px #08cccc ;
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+    width: 50%;
+
+    @include mobile{
+      width: 95%;
+      border: dotted 2px #d5b890;
+    }
+
+    @include tablet{
+      border: dotted 2px #783818;
+    }
+}
+
+#myCareer{
+  display: flex;
+  flex-direction: column;
+}
+
+.careerSmallTitle{
+  margin: 0;
+  font-family: Great Vibes;
+  font-size: 25px;
+  color: #783818;
+  border: dotted 3px #d5b890;
+  border-radius: 20px 0 20px 0;
+  padding: 3px;
+
+  @include mobile{
+    border: dotted 2px #08cccc;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+  }
+}
+
+.careerInfos{
+  font-family: cursive;
+  font-size: 15px;
+
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+// Mes centres d'intérêt
+
+#myInterestsSection{
+  margin-top: 20px;
+  border: dotted 3px #783818;
+  border-radius: 20px 0 20px 0;
+  width: 100%;
+  padding: 10px;
+
+  @include mobile{
+    width: 95%;
+    border: dotted 2px #d5b890;
+  }
+
+  @include tablet{
+    border: dotted 2px #08cccc;
+  }
+}
+
+.interests{
+  margin: 0;
+  font-family: cursive;
+  @include mobile{
+    font-size: 20px;
+  }
+}
+
+ol{
+  padding: 0;
+}
+
+#languagesSection{
+  margin-top: 20px;
+  border: dotted 3px #d5b890;
+  border-radius: 20px 0 20px 0;
+  width: 100%;
+  padding: 10px;
+
+  @include mobile{
+    width: 95%;
+    border: dotted 2px #783818;
+  }
+
+  @include tablet{
+    border: dotted 2px #783818;
+  }
+}
+
+.languages{
+  padding: 0;
+    text-align: center;
+    margin: 0;
+    font-family: cursive;
+
+    @include mobile{
+      font-size: 20px;
+    }
+}

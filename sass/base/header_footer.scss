@@ -1,0 +1,92 @@
+#header{
+    text-align: center;
+    border: solid 5px #d5b890;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    @include mobile{
+        border: solid 5px #783818;
+    }
+
+    @include tablet{
+        border: solid 5px #08cccc;
+    }
+}
+
+#h1Header{
+    font-family: Great Vibes;
+    color: #08cccc;
+    font-size: 45px;
+    margin: 15px;
+
+    @include mobile {
+     margin: 0;
+     margin-top: 10px;
+     color: #d5b890;
+    }
+
+    @include tablet{
+        color: #783818;
+    }
+}
+
+#h2Header{
+    font-family: Cookie;
+    color: #08cccc;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    @include mobile {
+     margin: 0;
+     margin-bottom: 10px;
+     color: #d5b890;
+    }
+
+    @include tablet{
+        color: #783818;
+    }
+}
+
+//Footer 
+
+#footer{
+    margin-top: 5px;
+    text-align: center;
+    border: solid 5px #d5b890;
+    border-radius: 20px;
+
+    @include mobile{
+        border: solid 5px #783818;
+    }
+
+    @include tablet{
+        border: solid 5px #08cccc;
+    }
+}
+
+.footerTitle{
+    font-family: Great Vibes;
+    color: #08cccc;
+    font-size: 30px;
+    margin: 15px;
+
+    @include mobile{
+        color: #d5b890;
+    }
+  
+      @include tablet{
+        color: #783818;
+    }
+}
+
+#footerList{
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footerLogos{
+    width: 30px;
+}

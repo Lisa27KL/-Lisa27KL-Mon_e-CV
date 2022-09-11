@@ -1,0 +1,19 @@
+.menuPics{
+    width: 25px;
+    @include mobile{
+        width: 40px;
+    }
+}
+#goingDown, #goingUp{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 98%;
+}
+
+#downArrow, #upArrow{
+    width: 25px;
+    @include mobile{
+        margin-top: 5px;
+        width: 35px;
+    }
+}
