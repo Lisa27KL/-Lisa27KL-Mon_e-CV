@@ -35,49 +35,49 @@
 }
 
 .menuBubble {
-  border: dotted 3px #783818;
+  border: dotted 3px $primary;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 20px;
   cursor: pointer;
 
   @include mobile{
-    border: dotted 2px #d5b890;
+    border: dotted 2px $secondary;
   }
   
   @include tablet{
-    border: dotted 2px #d5b890;
+    border: dotted 2px $secondary;
   }
 
 }
 
 .menuBubble:hover,
 .menuMiniBubble:hover {
-  border: dotted 3px #08cccc;
+  border: dotted 3px $tertiary;
   cursor: pointer;
   transform: scale(1.1);
 
   @include mobile{
-    border: dotted 2px #08cccc;
+    border: dotted 2px $tertiary;
   }
 
   @include tablet{
-    border: dotted 2px #08cccc;
+    border: dotted 2px $tertiary;
   }
 }
 
 .menuMiniBubble {
-  border: dotted 3px #d5b890;
+  border: dotted 3px $secondary;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 20px;
 
   @include mobile{
-    border: dotted 2px #783818;
+    border: dotted 2px $primary;
   }
   
   @include tablet{
-    border: dotted 2px #783818;
+    border: dotted 2px $primary;
   }
 }
 
@@ -92,8 +92,8 @@
 .menuDetails {
     text-align: center;
   margin: 0;
-  font-family: cursive;
-  color: #783818;
+  font-family: $font-4;
+  color: $complementary-color1;
 }
 
 .menuParts {

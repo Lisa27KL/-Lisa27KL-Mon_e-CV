@@ -13,36 +13,36 @@
 }
 
 #h1Header{
-    font-family: Great Vibes;
-    color: #08cccc;
+    font-family: $font-1;
+    color: $tertiary;
     font-size: 45px;
     margin: 15px;
 
     @include mobile {
      margin: 0;
      margin-top: 10px;
-     color: #d5b890;
+     color: $secondary;
     }
 
     @include tablet{
-        color: #783818;
+        color: $primary;
     }
 }
 
 #h2Header{
-    font-family: Cookie;
-    color: #08cccc;
+    font-family: $font-2;
+    color: $tertiary;
     font-size: 30px;
     margin-bottom: 10px;
     margin-top: 0;
     @include mobile {
      margin: 0;
      margin-bottom: 10px;
-     color: #d5b890;
+     color: $secondary;
     }
 
     @include tablet{
-        color: #783818;
+        color: $primary;
     }
 }
 
@@ -51,30 +51,30 @@
 #footer{
     margin-top: 5px;
     text-align: center;
-    border: solid 5px #d5b890;
+    border: solid 5px $secondary;
     border-radius: 20px;
 
     @include mobile{
-        border: solid 5px #783818;
+        border: solid 5px $primary;
     }
 
     @include tablet{
-        border: solid 5px #08cccc;
+        border: solid 5px $tertiary;
     }
 }
 
 .footerTitle{
-    font-family: Great Vibes;
-    color: #08cccc;
+    font-family: $font-1;
+    color: $tertiary;
     font-size: 30px;
     margin: 15px;
 
     @include mobile{
-        color: #d5b890;
+        color: $secondary;
     }
   
       @include tablet{
-        color: #783818;
+        color: $primary;
     }
 }
 
