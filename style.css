@@ -273,7 +273,7 @@ a {
 }
 
 #introduction {
-  border: dotted 3px #08cccc;
+  border: dotted 4px #08cccc;
   border-radius: 20px 0 20px 0;
   width: 70%;
   margin-left: 0;
@@ -321,7 +321,7 @@ a {
 }
 
 #hardSkills {
-  border: dotted 3px #783818;
+  border: dotted 4px #783818;
   border-radius: 20px 0 20px 0;
   width: 60%;
   padding: 10px;
@@ -381,7 +381,7 @@ a {
 }
 
 #softSkills {
-  border: dotted 3px #d5b890;
+  border: dotted 4px #d5b890;
   border-radius: 20px 0 20px 0;
   width: 25%;
   padding: 10px;
@@ -446,7 +446,7 @@ a {
 }
 
 #myProjects {
-  border: dotted 3px #d5b890;
+  border: dotted 4px #d5b890;
   border-radius: 20px 0 20px 0;
   padding: 10px;
   width: 95%;
@@ -498,7 +498,7 @@ a {
 .projectsCards1,
 .projectsCards3,
 .projectsCards5 {
-  border: dotted 3px #783818;
+  border: dotted 4px #783818;
   border-radius: 20px 0 20px 0;
   display: flex;
   flex-direction: row;
@@ -526,7 +526,7 @@ a {
 .projectsCards2,
 .projectsCards4,
 .projectsCards6 {
-  border: dotted 3px #d5b890;
+  border: dotted 4px #d5b890;
   border-radius: 20px 0 20px 0;
   display: flex;
   flex-direction: row;
@@ -611,7 +611,7 @@ a {
 .imgProjectCard4,
 .imgProjectCard5,
 .imgProjectCard6 {
-  border: dotted 3px #08cccc;
+  border: dotted 4px #08cccc;
   border-radius: 20px 0 20px 0;
   padding: 1px;
   width: 100%;
@@ -745,7 +745,7 @@ a {
 
 #myCareerSection {
   margin-top: 20px;
-  border: dotted 3px #08cccc;
+  border: dotted 4px #08cccc;
   border-radius: 20px 0 20px 0;
   padding: 10px;
   width: 50%;
@@ -772,7 +772,7 @@ a {
   font-family: "Charm", cursive;
   font-size: 25px;
   color: #783818;
-  border: dotted 3px #d5b890;
+  border: dotted 4px #d5b890;
   border-radius: 20px 0 20px 0;
   padding: 3px;
 }
@@ -799,7 +799,7 @@ a {
 
 #myInterestsSection {
   margin-top: 20px;
-  border: dotted 3px #783818;
+  border: dotted 4px #783818;
   border-radius: 20px 0 20px 0;
   width: 100%;
   padding: 10px;
@@ -832,7 +832,7 @@ ol {
 
 #languagesSection {
   margin-top: 20px;
-  border: dotted 3px #d5b890;
+  border: dotted 4px #d5b890;
   border-radius: 20px 0 20px 0;
   width: 100%;
   padding: 10px;

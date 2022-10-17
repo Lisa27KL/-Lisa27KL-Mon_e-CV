@@ -11,17 +11,17 @@
 }
 
 @mixin border-dotted-primary{
-  border: dotted 3px $primary;
+  border: dotted 4px $primary;
   border-radius: 20px 0 20px 0;
 }
 
 @mixin border-dotted-secondary{
-  border: dotted 3px $secondary;
+  border: dotted 4px $secondary;
   border-radius: 20px 0 20px 0;
 }
 
 @mixin border-dotted-tertiary{
-  border: dotted 3px $tertiary;
+  border: dotted 4px $tertiary;
   border-radius: 20px 0 20px 0;
 }
 
