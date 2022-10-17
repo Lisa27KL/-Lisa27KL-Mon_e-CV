@@ -1,7 +1,6 @@
 .menuNavBar {
   height: 10rem;
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   align-items: center;
   justify-content: space-evenly;
 
@@ -11,8 +10,7 @@
 }
 
 .navBar {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   align-items: center;
   @include mobile {
     width: 95%;
@@ -21,11 +19,10 @@
 }
 
 #menu {
+  @include flex-row;
   padding-left: 0;
   margin: 0;
   list-style: none;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   flex-wrap: nowrap;
   @include mobile {
@@ -82,15 +79,14 @@
 }
 
 .menuLiens {
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   align-items: center;
   width: 100%;
   justify-content: space-evenly;
 }
 
 .menuDetails {
-    text-align: center;
+  text-align: center;
   margin: 0;
   font-family: $font-4;
   color: $complementary-color1;
@@ -98,8 +94,7 @@
 
 .menuParts {
   margin-right: 15px;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
 
   @include mobile {
     flex-direction: row;

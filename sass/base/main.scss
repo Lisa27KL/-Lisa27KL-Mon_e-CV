@@ -1,12 +1,10 @@
 .introductionSection {
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   align-items: center;
 }
 
 #introduction {
-  border: dotte$tertiary;
-  border-radius: 20px 0 20px 0;
+  @include border-dotted-tertiary;
   width: 70%;
   margin-left: 0;
   text-align: center;
@@ -28,19 +26,22 @@
   font-family: $font-4;
   font-size: 30px;
 
-  @include mobile {
-    font-size: 35px;
-  }
+  // @include mobile {
+  //   font-size: 35px;
+  // }
 }
 
 #talk {
-  margin: 0;
+  // margin: 0;
   font-family: $font-4;
+
+  @include mobile{
+    font-size: 17px;
+  }
 }
 
 .mySkillsSection {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   align-items: center;
   justify-content: space-evenly;
 
@@ -50,12 +51,10 @@
 }
 
 #hardSkills {
-  border: dotted 3px $primary;
-  border-radius: 20px 0 20px 0;
+  @include border-dotted-primary;
   width: 60%;
   padding: 10px;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
 
   @include mobile {
     border: dotted 2px $secondary;
@@ -69,8 +68,7 @@
 }
 
 #mySkills {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 100%;
@@ -87,7 +85,7 @@
   text-align: center;
   font-family: $font-4;
   @include mobile {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 
@@ -98,17 +96,15 @@
   margin-top: 0px;
 
   @include mobile {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
 #softSkills {
-  border: dotted 3px $secondary;
-  border-radius: 20px 0 20px 0;
+  @include border-dotted-secondary;
   width: 25%;
   padding: 10px;
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   align-items: center;
 
   @include mobile {
@@ -124,12 +120,8 @@
 }
 
 .listMyHardSkills {
-  font-size: 15px;
-  list-style: none;
-  padding: 0;
   margin: 0;
-  font-family: $font-4;
-  color: $complementary-color1;
+  @include lists-hard-soft-skills;
 
   @include mobile {
     font-size: 20px;
@@ -137,13 +129,8 @@
 }
 
 .listMySoftSkills {
-  font-size: 15px;
   margin: 10px;
-  list-style: none;
-  padding: 0;
-  font-family: $font-4;
-  color: $complementary-color1;
-
+  @include lists-hard-soft-skills;
   @include mobile {
     margin: 5px;
     font-size: 20px;
@@ -151,8 +138,7 @@
 }
 
 #myProjectsSection {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   justify-content: space-evenly;
   margin-top: 20px;
   width: 100%;
@@ -163,8 +149,7 @@
 }
 
 #myProjects {
-  border: dotted 3px $secondary;
-  border-radius: 20px 0 20px 0;
+  @include border-dotted-secondary;
   padding: 10px;
   width: 95%;
 
@@ -188,10 +173,9 @@
   margin-bottom: 10px;
 
   @include mobile {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     align-items: center;
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 
@@ -209,12 +193,10 @@
 .projectsCards1,
 .projectsCards3,
 .projectsCards5 {
+  @include border-dotted-primary;
+  @include flex-row;
   background-color: $background-color1;
-  border: dotted 3px $primary;
-  border-radius: 20px 0 20px 0;
   padding: 10px;
-  display: flex;
-  flex-direction: row;
   margin-bottom: 20px;
   width: 100%;
 
@@ -231,14 +213,13 @@
 .projectsCards2,
 .projectsCards4,
 .projectsCards6 {
+  @include border-dotted-secondary;
+  @include flex-row;
   background-color: $background-color1;
-  border: dotted 3px $secondary;
-  border-radius: 20px 0 20px 0;
   padding: 10px;
-  display: flex;
-  flex-direction: row;
   margin-bottom: 20px;
   width: 100%;
+
   @include mobile {
     border: dotted 2px $tertiary;
     flex-direction: column;
@@ -256,8 +237,7 @@
 .infosProjectCard4,
 .infosProjectCard5,
 .infosProjectCard6 {
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   width: 100%;
 }
 
@@ -273,7 +253,7 @@
   font-family: $font-1;
 
   @include mobile {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -297,8 +277,7 @@
 .imgProjectCard4,
 .imgProjectCard5,
 .imgProjectCard6 {
-  border: dotted 3px $tertiary;
-  border-radius: 20px 0 20px 0;
+  @include border-dotted-tertiary;
   padding: 1px;
   width: 100%;
   @include mobile {
@@ -369,15 +348,6 @@
   }
 }
 
-// Projet 2
-
-
-
-
-
-
-//Projet 3
-
 
 #laChouetteAgenceBefore {
   color: $primary;
@@ -393,8 +363,7 @@
 
 // Mon parcours
 .bigSection {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   justify-content: space-evenly;
 
   @include mobile {
@@ -404,8 +373,7 @@
 }
 
 .smallSection {
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
 
   @include mobile {
     align-items: center;
@@ -415,8 +383,7 @@
 #myCareerSection {
   margin-top: 20px;
   // margin-left: 30px;
-  border: dotted 3px $tertiary;
-  border-radius: 20px 0 20px 0;
+  @include border-dotted-tertiary;
   padding: 10px;
   width: 50%;
 
@@ -431,8 +398,7 @@
 }
 
 #myCareer {
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
 }
 
 .careerSmallTitle {
@@ -440,8 +406,7 @@
   font-family: $font-1;
   font-size: 25px;
   color: $primary;
-  border: dotted 3px $secondary;
-  border-radius: 20px 0 20px 0;
+  @include border-dotted-secondary;
   padding: 3px;
 
   @include mobile {
@@ -466,8 +431,7 @@
 
 #myInterestsSection {
   margin-top: 20px;
-  border: dotted 3px $primary;
-  border-radius: 20px 0 20px 0;
+  @include border-dotted-primary;
   width: 100%;
   padding: 10px;
 
@@ -495,8 +459,7 @@ ol {
 
 #languagesSection {
   margin-top: 20px;
-  border: dotted 3px $secondary;
-  border-radius: 20px 0 20px 0;
+  @include border-dotted-secondary;
   width: 100%;
   padding: 10px;
 

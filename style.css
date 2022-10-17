@@ -80,16 +80,18 @@ a {
   margin-bottom: 10px;
   margin-top: 0;
 }
-@media (max-width: 600px) {
-  #h2Header {
-    margin: 0;
-    margin-bottom: 10px;
-    color: #d5b890;
-  }
-}
 @media (max-width: 1200px) {
   #h2Header {
     color: #783818;
+  }
+}
+@media (max-width: 600px) {
+  #h2Header {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #d5b890;
+    font-size: 23px;
   }
 }
 
@@ -166,11 +168,11 @@ a {
 }
 
 #menu {
+  display: flex;
+  flex-direction: row;
   padding-left: 0;
   margin: 0;
   list-style: none;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -271,7 +273,7 @@ a {
 }
 
 #introduction {
-  border: dotte #08cccc;
+  border: dotted 3px #08cccc;
   border-radius: 20px 0 20px 0;
   width: 70%;
   margin-left: 0;
@@ -296,15 +298,14 @@ a {
   font-family: "Merienda One", cursive;
   font-size: 30px;
 }
-@media (max-width: 600px) {
-  #introTitle {
-    font-size: 35px;
-  }
-}
 
 #talk {
-  margin: 0;
   font-family: "Merienda One", cursive;
+}
+@media (max-width: 600px) {
+  #talk {
+    font-size: 17px;
+  }
 }
 
 .mySkillsSection {
@@ -363,7 +364,7 @@ a {
 @media (max-width: 600px) {
   #hardSkillsTitle,
 #softSkillsTitle {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 
@@ -375,7 +376,7 @@ a {
 }
 @media (max-width: 600px) {
   .titlesh4 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -403,12 +404,12 @@ a {
 }
 
 .listMyHardSkills {
-  font-size: 15px;
-  list-style: none;
-  padding: 0;
   margin: 0;
   font-family: "Merienda One", cursive;
   color: black;
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
 }
 @media (max-width: 600px) {
   .listMyHardSkills {
@@ -417,12 +418,12 @@ a {
 }
 
 .listMySoftSkills {
-  font-size: 15px;
   margin: 10px;
-  list-style: none;
-  padding: 0;
   font-family: "Merienda One", cursive;
   color: black;
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
 }
 @media (max-width: 600px) {
   .listMySoftSkills {
@@ -479,7 +480,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 
@@ -497,12 +498,12 @@ a {
 .projectsCards1,
 .projectsCards3,
 .projectsCards5 {
-  background-color: #eee1d063;
   border: dotted 3px #783818;
   border-radius: 20px 0 20px 0;
-  padding: 10px;
   display: flex;
   flex-direction: row;
+  background-color: #eee1d063;
+  padding: 10px;
   margin-bottom: 20px;
   width: 100%;
 }
@@ -525,12 +526,12 @@ a {
 .projectsCards2,
 .projectsCards4,
 .projectsCards6 {
-  background-color: #eee1d063;
   border: dotted 3px #d5b890;
   border-radius: 20px 0 20px 0;
-  padding: 10px;
   display: flex;
   flex-direction: row;
+  background-color: #eee1d063;
+  padding: 10px;
   margin-bottom: 20px;
   width: 100%;
 }
@@ -579,7 +580,7 @@ a {
 .projectTitle4,
 .projectTitle5,
 .projectTitle6 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
