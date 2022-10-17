@@ -303,7 +303,7 @@
 .imgProject3:hover,
 .imgProject5:hover {
   transform: scale(1.4) translate(-20%, 0%);
-  border: dotted 3px $secondary;
+  border: dotted 4px $secondary;
 
   @include tablet {
     transform: scale(1.5) translate(-34%, 7%);
@@ -323,7 +323,7 @@
 .imgProject4:hover,
 .imgProject6:hover {
   transform: scale(1.4) translate(-20%, 0%);
-  border: dotted 3px $primary;
+  border: dotted 4px $primary;
   
   @include tablet {
     transform: scale(1.5) translate(-34%, 7%);

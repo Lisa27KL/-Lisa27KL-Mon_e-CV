@@ -184,7 +184,7 @@ a {
 }
 
 .menuBubble {
-  border: dotted 3px #783818;
+  border: dotted 4px #783818;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 20px;
@@ -203,7 +203,7 @@ a {
 
 .menuBubble:hover,
 .menuMiniBubble:hover {
-  border: dotted 3px #08cccc;
+  border: dotted 4px #08cccc;
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -221,7 +221,7 @@ a {
 }
 
 .menuMiniBubble {
-  border: dotted 3px #d5b890;
+  border: dotted 4px #d5b890;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 20px;
@@ -651,7 +651,7 @@ a {
 .imgProject3:hover,
 .imgProject5:hover {
   transform: scale(1.4) translate(-20%, 0%);
-  border: dotted 3px #d5b890;
+  border: dotted 4px #d5b890;
 }
 @media (max-width: 1200px) {
   .imgProject1:hover,
@@ -677,7 +677,7 @@ a {
 .imgProject4:hover,
 .imgProject6:hover {
   transform: scale(1.4) translate(-20%, 0%);
-  border: dotted 3px #783818;
+  border: dotted 4px #783818;
 }
 @media (max-width: 1200px) {
   .imgProject2:hover,

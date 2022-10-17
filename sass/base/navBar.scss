@@ -32,7 +32,7 @@
 }
 
 .menuBubble {
-  border: dotted 3px $primary;
+  border: dotted 4px $primary;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 20px;
@@ -50,7 +50,7 @@
 
 .menuBubble:hover,
 .menuMiniBubble:hover {
-  border: dotted 3px $tertiary;
+  border: dotted 4px $tertiary;
   cursor: pointer;
   transform: scale(1.1);
 
@@ -64,7 +64,7 @@
 }
 
 .menuMiniBubble {
-  border: dotted 3px $secondary;
+  border: dotted 4px $secondary;
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 20px;
