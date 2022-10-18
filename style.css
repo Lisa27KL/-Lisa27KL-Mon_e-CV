@@ -144,6 +144,8 @@ a {
 
 .menuNavBar {
   height: 10rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -254,6 +256,8 @@ a {
 
 .menuParts {
   margin-right: 15px;
+  list-style: none;
+  padding-left: 0;
   display: flex;
   flex-direction: column;
 }
@@ -737,6 +741,11 @@ a {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1200px) {
+  .smallSection {
+    margin: 20px;
+  }
+}
 @media (max-width: 600px) {
   .smallSection {
     align-items: center;
@@ -750,15 +759,16 @@ a {
   padding: 10px;
   width: 50%;
 }
+@media (max-width: 1200px) {
+  #myCareerSection {
+    margin: 20px;
+    border: dotted 2px #783818;
+  }
+}
 @media (max-width: 600px) {
   #myCareerSection {
     width: 95%;
     border: dotted 2px #d5b890;
-  }
-}
-@media (max-width: 1200px) {
-  #myCareerSection {
-    border: dotted 2px #783818;
   }
 }
 
@@ -804,30 +814,28 @@ a {
   width: 100%;
   padding: 10px;
 }
+@media (max-width: 1200px) {
+  #myInterestsSection {
+    margin-top: 0;
+    border: dotted 2px #08cccc;
+  }
+}
 @media (max-width: 600px) {
   #myInterestsSection {
     width: 95%;
     border: dotted 2px #d5b890;
   }
 }
-@media (max-width: 1200px) {
-  #myInterestsSection {
-    border: dotted 2px #08cccc;
-  }
-}
 
 .interests {
   margin: 0;
   font-family: "Merienda One", cursive;
+  list-style: none;
 }
 @media (max-width: 600px) {
   .interests {
     font-size: 20px;
   }
-}
-
-ol {
-  padding: 0;
 }
 
 #languagesSection {
@@ -837,19 +845,20 @@ ol {
   width: 100%;
   padding: 10px;
 }
+@media (max-width: 1200px) {
+  #languagesSection {
+    border: dotted 2px #783818;
+  }
+}
 @media (max-width: 600px) {
   #languagesSection {
     width: 95%;
     border: dotted 2px #783818;
   }
 }
-@media (max-width: 1200px) {
-  #languagesSection {
-    border: dotted 2px #783818;
-  }
-}
 
 .languages {
+  list-style: none;
   padding: 0;
   text-align: center;
   margin: 0;

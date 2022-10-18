@@ -375,6 +375,10 @@
 .smallSection {
   @include flex-column;
 
+  @include tablet{
+    margin: 20px;
+  }
+
   @include mobile {
     align-items: center;
   }
@@ -387,13 +391,14 @@
   padding: 10px;
   width: 50%;
 
+  @include tablet {
+    margin: 20px;
+    border: dotted 2px $primary;
+  }
+
   @include mobile {
     width: 95%;
     border: dotted 2px $secondary;
-  }
-
-  @include tablet {
-    border: dotted 2px $primary;
   }
 }
 
@@ -434,27 +439,25 @@
   @include border-dotted-primary;
   width: 100%;
   padding: 10px;
-
+  
+  @include tablet {
+    margin-top: 0;
+    border: dotted 2px $tertiary;
+  }
   @include mobile {
     width: 95%;
     border: dotted 2px $secondary;
   }
 
-  @include tablet {
-    border: dotted 2px $tertiary;
-  }
 }
 
 .interests {
   margin: 0;
   font-family: $font-4;
+  list-style: none;
   @include mobile {
     font-size: 20px;
   }
-}
-
-ol {
-  padding: 0;
 }
 
 #languagesSection {
@@ -462,18 +465,19 @@ ol {
   @include border-dotted-secondary;
   width: 100%;
   padding: 10px;
-
+  
+  @include tablet {
+    border: dotted 2px $primary;
+  }
   @include mobile {
     width: 95%;
     border: dotted 2px $primary;
   }
 
-  @include tablet {
-    border: dotted 2px $primary;
-  }
 }
 
 .languages {
+  list-style: none;
   padding: 0;
   text-align: center;
   margin: 0;
