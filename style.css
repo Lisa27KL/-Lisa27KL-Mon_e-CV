@@ -12,28 +12,15 @@ a {
   text-decoration: 0;
 }
 
-.menuPics {
-  width: 25px;
-}
-@media (max-width: 600px) {
-  .menuPics {
-    width: 40px;
-  }
-}
-
 #goingDown, #goingUp {
   display: flex;
   flex-direction: row-reverse;
   width: 98%;
 }
 
-#downArrow, #upArrow {
-  width: 25px;
-}
 @media (max-width: 600px) {
   #downArrow, #upArrow {
     margin-top: 5px;
-    width: 35px;
   }
 }
 
@@ -90,7 +77,6 @@ a {
     margin: 0;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #d5b890;
     font-size: 23px;
   }
 }
@@ -267,6 +253,7 @@ a {
     width: 100%;
     justify-content: space-between;
     margin-right: 0;
+    margin: 0;
   }
 }
 

@@ -1,9 +1,9 @@
-.menuPics{
-    width: 25px;
-    @include mobile{
-        width: 40px;
-    }
-}
+// .menuPics{
+//     width: 25px;
+//     @include mobile{
+//         width: 40px;
+//     }
+// }
 #goingDown, #goingUp{
     display: flex;
     flex-direction: row-reverse;
@@ -11,9 +11,9 @@
 }
 
 #downArrow, #upArrow{
-    width: 25px;
+    // width: 25px;
     @include mobile{
         margin-top: 5px;
-        width: 35px;
+        // width: 35px;
     }
 }
