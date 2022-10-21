@@ -635,6 +635,7 @@ a {
 .imgProject5,
 .imgProject6 {
   width: 100%;
+  height: auto;
   border-radius: 20px 0 20px 0;
 }
 
